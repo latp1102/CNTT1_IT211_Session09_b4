@@ -1,0 +1,13 @@
+Môi trường dev
+đặc điểm:
+mục đích: hỗ trợ lập trình viên theo dõi luồng xử lý và fix lỗi nhanh
+hình thức đầu ra: console (màn hình terminal)
+mức độ log: DEBUG
+quản lý lưu trữ: ko lưu trữ lâu dài
+
+Môi trường Prod
+đặc điểm
+mục đích: lưu trữ vết hệ thống để kiểm tra khi có sự cố, tối ưu dung lượng lưu trữ
+hình thức đầu ra: file
+mức độ log: INFO
+quản lý lưu trữ: có cơ thể xoay vòng
